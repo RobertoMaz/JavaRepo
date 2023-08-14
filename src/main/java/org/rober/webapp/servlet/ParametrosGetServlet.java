@@ -34,8 +34,9 @@ public class ParametrosGetServlet extends HttpServlet {
             out.println("         <h2>El saludo enviado es: " + saludo + " " + nombre + "</h2>");
 
         } else if (saludo != null) {
-
             out.println("         <h2>El saludo enviado es: " + saludo + "</h2>");
+        } else if (nombre != null) {
+            out.println("         <h2>El nombre solo: " + nombre + "</h2>");
         } else {
             out.println("<h3>No se han pasado los parametros saludo y nombre</h3>");
         }
