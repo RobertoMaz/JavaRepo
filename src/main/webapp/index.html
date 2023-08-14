@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <title>Tomcat</title>
-    </head>
-    <body>
-    <h1>Hola Tomcat!!</h1>
-    <a href="/webapp/parametros/url-get?saludo=Hola que tal">saludo</a>
-    <br>
-    <a href="/webapp/parametros/url-get?saludo=Hola que tal&nombre=rober">saludo / nombre</a>
-    <br>
-    <a href="/webapp/parametros/url-get?nombre=Mazza">nombre</a>
-    <br>
-    <a href="/webapp/parametros/url-get">nada</a>
+<head>
+    <meta charset="UTF-8">
+    <title>Tomcat</title>
+</head>
+<body>
+<h1>Hola Tomcat!!</h1>
+<ul>
+    <li>
+        <a href="/webapp/parametros/url-get?saludo=Hola que tal">saludo</a>
+    </li>
+    <li>
+        <a href="/webapp/parametros/url-get?saludo=Hola que tal&nombre=rober">saludo / nombre</a>
+    </li>
+    <li>
+        <a href="/webapp/parametros/url-get?nombre=Mazza">nombre</a>
+    </li>
+    <li>
+        <a href="/webapp/parametros/url-get?saludo=Hola que tal&nombre=rober&codigo=2505">saludo / nombre / codigo</a>
+    </li>
+    <li>
+        <a href="/webapp/parametros/url-get">nada</a>
+    </li>
+</ul>
 
-
-    </body>
+</body>
 </html>
